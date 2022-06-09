@@ -1,10 +1,16 @@
+/*wild cards*/
 * {
     font-family: Garamond;
     font-size: 18px;
+}
+
+/*elements*/
+body {
     background-color: rgb(44, 44, 44);
     color: white;
 }
 
+/*classes*/
 .page-title {
     text-align: center;
     font-size: 75px;
@@ -16,9 +22,21 @@
     font-size: 35px;
 }
 
+.recipe-container {
+    background-color: white;
+}
+
+/*ids*/
+.food-img {
+    width: 600px;
+    height: auto;
+}
+
 #thor {
     display: flex;
     width: 500px;
     height: auto;
     margin: 0 auto;
 }
+
+
