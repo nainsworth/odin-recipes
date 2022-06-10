@@ -10,6 +10,10 @@ body {
     color: white;
 }
 
+a {
+    color: gold;
+}
+
 /*classes*/
 .page-title {
     text-align: center;
@@ -24,6 +28,7 @@ body {
 
 .recipe-container {
     background-color: white;
+    color: black;
 }
 
 /*ids*/
