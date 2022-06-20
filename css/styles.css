@@ -2,16 +2,56 @@
 * {
     font-family: Garamond;
     font-size: 18px;
+    /* border: 1px solid red; */
 }
 
 /*elements*/
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: rgb(44, 44, 44);
     color: white;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 a {
     color: gold;
+    text-decoration: none;
+}
+
+/*Index page*/
+.link-img {
+    width: 400px;
+    border-radius: 16px;
+}
+
+#food-container {
+    flex: auto;
+    display: flex;
+    justify-content: center;
+}
+
+#food-links {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex: auto;
+    max-width: 1450px;
+}
+
+.recipe-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 28px;
+    font-weight: bold;
+    padding-bottom: 20px;
 }
 
 /*classes*/
@@ -19,12 +59,6 @@ a {
     text-align: center;
     font-size: 75px;
 }
-
-/*.sub-title {
-    text-align: center;
-    font-weight: bold;
-    font-size: 35px;
-}*/
 
 .recipe-container {
     background-color: white;
@@ -44,4 +78,16 @@ a {
     margin: 0 auto;
 }
 
+.footer {
+    margin: 0;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
 
+.footer a {
+    color: white;
+}
