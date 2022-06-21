@@ -1,7 +1,7 @@
 /*wild cards*/
 * {
     font-family: Garamond;
-    font-size: 18px;
+    font-size: 20px;
     /* border: 1px solid red; */
 }
 
@@ -13,10 +13,12 @@ html {
 body {
     background-color: rgb(44, 44, 44);
     color: white;
-    margin: 0;
+    margin: 0 auto;
     height: 100vh;
     display: flex;
     flex-direction: column;
+    max-width: 1900px;
+    min-width: 600px;
 }
 
 a {
@@ -24,10 +26,15 @@ a {
     text-decoration: none;
 }
 
+li {
+    list-style-type: none;
+}
+
 /*Index page*/
 .link-img {
     width: 400px;
     border-radius: 16px;
+    margin-bottom: 20px;
 }
 
 #food-container {
@@ -37,7 +44,6 @@ a {
 }
 
 #food-links {
-    list-style-type: none;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -54,30 +60,46 @@ a {
     padding-bottom: 20px;
 }
 
-/*classes*/
 .page-title {
     text-align: center;
     font-size: 75px;
 }
 
+.food-img {
+    width: 550px;
+    height: auto;
+    border-radius: 16px;
+}
+
+.page-container {
+    display: flex;
+    margin: 0 50px;
+    border: 3px solid white;
+    border-radius: 32px;
+    padding: 24px;
+    flex-wrap: wrap;
+}
+
+.description-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.return-home {
+    padding-top: 50px;
+}
+
 .recipe-container {
     background-color: white;
     color: black;
+    flex: 2;
+    border-radius: 16px;
+    padding: 0 24px;
+    margin-left: 16px
 }
 
-/*ids*/
-.food-img {
-    width: 600px;
-    height: auto;
-}
-
-#thor {
-    display: flex;
-    width: 500px;
-    height: auto;
-    margin: 0 auto;
-}
-
+/*Footer*/
 .footer {
     margin: 0;
     padding: 16px;
