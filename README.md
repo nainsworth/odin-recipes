@@ -7,4 +7,4 @@ The website will contain an index page that will link to different recipes
 This will be in HTML only!
 
 ## Live Post
-[Odin Recipe Web link](https://nainsworth.github.io/odin-recipes/)
+[Odin Recipe Web link](https://META-N1CK.github.io/odin-recipes/)
